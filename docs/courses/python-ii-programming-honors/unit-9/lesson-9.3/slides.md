@@ -11,8 +11,12 @@ paginate: true
 
 # Agenda: 9.3
 
-- [PCAP Exam Practice](https://github.com/whlapinel/whlapinel.github.io/blob/main/docs/courses/python-ii-programming-honors/unit-9/lesson-9.3/files/practice_problems3.md)
+- [PCAP Exam Practice](https://github.com/whlapinel/python/blob/main/docs/courses/python-ii-programming-honors/unit-9/lesson-9.3/files/practice_problems3.md)
 
+<<<<<<< HEAD
 - [Exam Information](https://github.com/whlapinel/whlapinel.github.io/blob/main/docs/courses/python-ii-programming-honors/unit-9/files/exam_info.md)
 
 - [Test Link](https://google.com)
+=======
+- [Exam Information](https://github.com/whlapinel/python/blob/main/docs/courses/python-ii-programming-honors/unit-9/files/exam_info.md)
+>>>>>>> dev
