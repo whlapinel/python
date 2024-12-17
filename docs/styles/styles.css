@@ -673,10 +673,6 @@ video {
   display: none;
 }
 
-.aspect-auto {
-  aspect-ratio: auto;
-}
-
 .size-32 {
   width: 8rem;
   height: 8rem;
@@ -712,10 +708,6 @@ video {
   max-width: 80rem;
 }
 
-.max-w-\[80vw\] {
-  max-width: 80vw;
-}
-
 .max-w-fit {
   max-width: -moz-fit-content;
   max-width: fit-content;
@@ -743,10 +735,6 @@ video {
 
 .grid-cols-7 {
   grid-template-columns: repeat(7, minmax(0, 1fr));
-}
-
-.grid-cols-\[1fr_4fr\] {
-  grid-template-columns: 1fr 4fr;
 }
 
 .flex-col {
