@@ -15,6 +15,10 @@ print(squares)
 - C) `[2, 4, 6, 8]`
 - D) `None`
 
+**Answer**: **A**
+
+---
+
 ## **2. Lambda Functions**
 
 **Question**: What is the output of this code?
@@ -28,6 +32,10 @@ print(double(5))
 - B) `25`
 - C) `10`
 - D) `Error`
+
+**Answer**: **C**
+
+---
 
 ## **3. Closures**
 
@@ -48,6 +56,10 @@ print(add_five(10))
 - C) `10`
 - D) `Error`
 
+**Answer**: **A**
+
+---
+
 ## **4. File Handling**
 
 **Question**: What does the following code do?
@@ -61,6 +73,10 @@ with open("data.txt", "w") as file:
 - B) Writes "Hello, world!" to `data.txt`, overwriting its contents
 - C) Reads the contents of `data.txt`
 - D) Creates `data.txt` without writing anything
+
+**Answer**: **B**
+
+---
 
 ## **5. Error Handling**
 
@@ -80,6 +96,10 @@ finally:
 - C) `"Cannot divide by zero!\nExecution complete."`
 - D) `Error`
 
+**Answer**: **C**
+
+---
+
 ## **6. List Comprehensions with Conditionals**
 
 **Question**: What does the following code produce?
@@ -94,6 +114,10 @@ print(evens)
 - B) `[2, 4]`
 - C) `[1, 2, 3, 4]`
 - D) `[]`
+
+**Answer**: **B**
+
+---
 
 ## **7. Nested Functions**
 
@@ -113,6 +137,10 @@ print(outer())
 - C) `None`
 - D) `Error`
 
+**Answer**: **A**
+
+---
+
 ## **8. Reading from Files**
 
 **Question**: What will this code output, assuming `data.txt` contains the line `"Python"`?
@@ -126,6 +154,10 @@ with open("data.txt", "r") as file:
 - B) `None`
 - C) `Error`
 - D) `""` (empty string)
+
+**Answer**: **D**
+
+---
 
 ## **9. Lambda and Map**
 
@@ -142,6 +174,10 @@ print(result)
 - C) `[2, 4, 6]`
 - D) `None`
 
+**Answer**: **B**
+
+---
+
 ## **10. Combining Comprehensions and Files**
 
 **Question**: What does the following code do?
@@ -156,3 +192,5 @@ with open("output.txt", "w") as file:
 - B) Appends each line to `output.txt` without newlines
 - C) Creates `output.txt` but writes nothing
 - D) Raises an error
+
+**Answer**: **A**
