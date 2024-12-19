@@ -39,7 +39,7 @@ project/
     about.html
 ```
 
-## Rendering a Template
+# Rendering a Template
 
 - Use the `render_template` function to display templates.
 
@@ -72,7 +72,7 @@ def about():
     return render_template('about.html', title="About", name="John")
 ```
 
-**about.html:**
+# **about.html:**
 
 ```html
 <!DOCTYPE html>
@@ -86,7 +86,7 @@ def about():
 </html>
 ```
 
-## Template Components (Reusable HTML)
+# Template Components (Reusable HTML)
 
 - Use `{% include %}` to insert reusable components.
 
@@ -106,9 +106,7 @@ def about():
 
 # Step 2: Include the Component in Pages
 
-# Index
-
-**templates/index.html:**
+# **templates/index.html:**
 
 ```html
 <!DOCTYPE html>
@@ -123,9 +121,7 @@ def about():
 </html>
 ```
 
-# About
-
-**templates/about.html:**
+# **templates/about.html:**
 
 ```html
 <!DOCTYPE html>
@@ -153,4 +149,3 @@ def about():
    - Conditionals (`{% if %}`)
    - Loops (`{% for %}`)
 3. Build a simple multi-page Flask application.
-
