@@ -1,11 +1,10 @@
 ---
+layout: none
 marp: true
 theme: default
 class: lead
 paginate: true
 ---
-
-{%- comment -%} Disable Liquid processing {%- endcomment -%}
 
 <!-- headingDivider: 1 -->
 <!-- backgroundColor: black -->
