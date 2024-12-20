@@ -77,7 +77,7 @@ t = turtle.Turtle()
 t.color("green")
 
 # Draw the tree
-for size in [100, 80, 60]:
+for size in [60, 80, 100]:
     t.begin_fill()
     t.forward(size)
     t.left(120)
