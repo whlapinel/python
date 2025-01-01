@@ -17,6 +17,12 @@ paginate: true
   - Please check your grades in Canvas for anything missing
   - Lesson 8.4 is posted for working ahead
 
+# Looking ahead
+
+- PCAP Exam?
+- Unit 8 Project
+- Final Project
+
 # Flask Templates and Components
 
 # Introduction to Flask Templates
