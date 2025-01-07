@@ -282,6 +282,11 @@ Body: { &quot;email&quot;: &quot;jane.new@example.com&quot; }
 <h1 id="running-the-application">Running the Application</h1>
 <p><strong>Steps</strong>:</p>
 <ol>
+<li>At the top of <code>app.py</code> include:</li>
+</ol>
+<pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-python"><span class="hljs-keyword">from</span> flask <span class="hljs-keyword">import</span> Flask, render_template, request
+</code></pre>
+<ol>
 <li>
 <p>Add the following to the bottom of <code>app.py</code>:</p>
 <pre is="marp-pre" data-auto-scaling="downscale-only"><code class="language-python"><span class="hljs-keyword">if</span> __name__ == <span class="hljs-string">&#x27;__main__&#x27;</span>:
