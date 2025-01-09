@@ -901,6 +901,10 @@ video {
   transition-duration: 150ms;
 }
 
+.\[a-zA-Z\:\\-\\\.\] {
+  a-z-a--z: \-\.;
+}
+
 .\*\/display\:table > * {
   display: table;
 }
