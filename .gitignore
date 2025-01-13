@@ -4,3 +4,4 @@ secret*
 *solution*
 *.db
 cmd
+**/__pycache__/
