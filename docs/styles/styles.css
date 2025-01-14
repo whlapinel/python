@@ -670,6 +670,10 @@ video {
   height: 8rem;
 }
 
+.h-\[35rem\] {
+  height: 35rem;
+}
+
 .h-auto {
   height: auto;
 }
@@ -690,6 +694,14 @@ video {
 .min-h-fit {
   min-height: -moz-fit-content;
   min-height: fit-content;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .min-w-52 {
@@ -748,6 +760,10 @@ video {
 
 .items-center {
   align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-between {
