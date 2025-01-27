@@ -9,8 +9,6 @@ paginate: true
 <!-- backgroundColor: black -->
 <!-- class: invert -->
 
-# Welcome
-
 # Lesson 0.1
 
 Welcome to Python I Programming Honors!
@@ -45,11 +43,39 @@ Unit 8: Data Structures
 Unit 9: Text Files
 Unit 10: PCEP Preparation and Exam
 
-# Using Artificial Intelligence
+# Platforms / Software
 
-- AI is great for learning but, since the typical student uses it for "Getting the Job Done", using AI is prohibited during class and blocked through DyKnow
-- Expect to be asked about your code - if you don't understand what you wrote, you won't get full credit for it
-- You are encouraged to use AI **outside of class** and **for learning**
+- [Course Website](https://whlapinel.github.io/python/courses/courses.html) - all slides, files and assignment instructions
+- Canvas - where all assignments will be submitted
+- Powerschool - ultimate authority on grades (nightly sync enabled)
+- Python
+- VS Code
+- PowerShell
+- Online GDB
+- CodeHS
+
+# Routine
+
+- Each day when you come to class:
+  - Go to the course calendar, open today's lesson, complete the warm-up
+- I may start recording lectures on video soon but for now I will be conducting a brief lecture and then we will begin the assignment
+
+# Rules & Procedures
+
+- No personal devices during class
+- Absolutely, positively no food or drink in the classroom
+- AFTER you finish work you may eat a snack in the break room - you must clean up after yourself!
+- Bathroom
+  - after first 15, before last 15
+  - not while I'm talking to the class
+  - ask for permission and if I give it, you will write yourself a pass and show it to me
+
+# Materials
+
+- Earbuds / headphones: for watching video lectures
+- Flash drive: not required but would be good for you to have, does not need a lot of storage
+- OneDrive has not been reliable on this network because access is intermittent (ongoing issue)
+- If you can't get a flash drive, you can upload files to your google drive at the end of each class
 
 # Assignments and grades
 
@@ -70,33 +96,11 @@ Unit 10: PCEP Preparation and Exam
 
 - In case of absence simply check the course calendar and Canvas assignments for missed materials
 
-# Platforms / Software
+# Using Artificial Intelligence
 
-- [Course Website](https://whlapinel.github.io/python/courses/courses.html) - all slides, files and assignment instructions
-- Canvas - where all assignments will be submitted
-- Powerschool - ultimate authority on grades (nightly sync enabled)
-- Python
-- VS Code
-- PowerShell
-- Online GDB
-- CodeHS
-
-# Rules & Procedures
-
-- No personal devices during class
-- Absolutely, positively no food or drink in the classroom
-- AFTER you finish work you may eat a snack in the break room - you must clean up after yourself!
-- Bathroom
-  - after first 15, before last 15
-  - not while I'm talking to the class
-  - ask for permission and if I give it, you will write yourself a pass and show it to me
-
-# Materials
-
-- Earbuds / headphones: for watching video lectures
-- Flash drive: not required but would be good for you to have, does not need a lot of storage
-- OneDrive has not been reliable on this network because access is intermittent (ongoing issue)
-- If you can't get a flash drive, you can upload files to your google drive at the end of each class
+- AI is great for learning but, since the typical student uses it for "Getting the Job Done", using AI is prohibited during class and blocked through DyKnow
+- Expect to be asked about your code - if you don't understand what you wrote, you won't get full credit for it
+- You are encouraged to use AI **outside of class** and **for learning**
 
 # Getting the right mentality
 
@@ -211,8 +215,8 @@ Write a program that:
 
 # Assignment 0.1
 
-- Enroll in CodeHS and begin the first lesson
 - Submit a screenshot of the output of the above program in:
   - IDLE
   - VS Code
   - CodeHS
+- Enroll in CodeHS and begin the first lesson

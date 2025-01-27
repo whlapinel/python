@@ -54,6 +54,12 @@ Unit 10: Final Project
 - PowerShell
 - Online GDB
 
+# Routine
+
+- Each day when you come to class:
+  - Go to the course calendar, open today's lesson, complete the warm-up
+- I may start recording lectures on video soon but for now I will be conducting a brief lecture and then we will begin the assignment
+
 # Rules & Procedures
 
 - No personal devices during class
