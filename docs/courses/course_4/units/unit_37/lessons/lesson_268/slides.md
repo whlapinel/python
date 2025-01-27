@@ -22,6 +22,29 @@ Welcome to Python I Programming Honors!
 - Policies & Procedures
 - Setting up
 
+# About Me
+
+- Married with 3 kids
+- Navy
+- 1st year at POB
+
+![Mr. Lapinel bg right 50%](./files/profile.jpg)
+
+# Course Overview
+
+Unit 0: Setup and introduction
+Unit 1: Ethics, Security and History of Computer Programming
+Unit 2: Problem Solving With Computers
+Unit 3: Basic Python and Console Interaction
+Unit 4: Conditionals
+Unit 5: Looping
+Unit 6: Functions and Exceptions
+Midterm Review & Exam
+Unit 7: Strings
+Unit 8: Data Structures
+Unit 9: Text Files
+Unit 10: PCEP Preparation and Exam
+
 # Using Artificial Intelligence
 
 - AI is great for learning but, since the typical student uses it for "Getting the Job Done", using AI is prohibited during class and blocked through DyKnow
@@ -42,6 +65,10 @@ Welcome to Python I Programming Honors!
 - Minimum 50 for attempted work per district policy
 - 3 points automatically deducted for each day late including weekends
 - Late submissions will remain a 0 until I grade it; don't expect me to grade it immediately
+
+# Absences
+
+- In case of absence simply check the course calendar and Canvas assignments for missed materials
 
 # Platforms / Software
 
@@ -66,7 +93,8 @@ Welcome to Python I Programming Honors!
 
 # Materials
 
-- Flash drive is not required but would be good for you to have, does not need a lot of storage
+- Earbuds / headphones: for watching video lectures
+- Flash drive: not required but would be good for you to have, does not need a lot of storage
 - OneDrive has not been reliable on this network because access is intermittent (ongoing issue)
 - If you can't get a flash drive, you can upload files to your google drive at the end of each class
 
@@ -86,9 +114,39 @@ Welcome to Python I Programming Honors!
 
 Click here: [Join Class](https://codehs.com/go/2624F)
 
-# Python 1: Introduction to Programming
+# Setting up folders
 
-# Welcome to Python Programming!
+Click on file explorer.
+
+In your OneDrive directory, create a new directory called `python`
+
+Within this directory, create a directory called `unit_0`
+
+And within this directory, create another new directory called `lesson_1`
+
+```text
+/python
+  /unit_0
+    /lesson_1
+```
+
+No spaces or uppercase letters in directory or file names!
+
+# VS Code
+
+Open Visual Studio Code
+
+Open the `lesson_1` directory you just created.
+
+This is what we will do from now until the end of the course!
+
+If/until you get a flash drive, you should back up your entire `python` directory to your Google Drive account at the end of each class.  It might be best to compress to a .zip file.
+
+# Install the Python extension
+
+Follow instructions to install the Python extension for VS Code.
+
+# Python 1: Introduction to Programming
 
 - **What is programming?**
   - Giving instructions to a computer to perform tasks.
@@ -151,7 +209,10 @@ Write a program that:
 2. Stores your age in another variable.
 3. Prints: `My name is [name] and I am [age] years old.`
 
-# Next Steps
-- Learn to use **input()** for user interaction.
-- Work with **if statements** for decision-making.
-- Explore loops to repeat actions.
+# Assignment 0.1
+
+- Enroll in CodeHS and begin the first lesson
+- Submit a screenshot of the output of the above program in:
+  - IDLE
+  - VS Code
+  - CodeHS
