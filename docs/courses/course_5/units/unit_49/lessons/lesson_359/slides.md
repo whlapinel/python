@@ -30,7 +30,10 @@ Mr. Lapinel
 
 # Review: For Loops in Python
 
-## What is a `for` loop?
+- Yesterday, we reviewed `if` statements.
+- Today we'll talk about `for` loops.
+
+# What is a `for` loop?
 - A `for` loop is used to iterate over a sequence (e.g., list, tuple, string, range).
 - It allows execution of a block of code multiple times.
 
@@ -188,6 +191,6 @@ Loop finished!
 
 # Agenda
 
-Continue working on `practice.py` (see yesterday's files) together in class.
+Work on problems in `practice.py` (new file) together in class.
 
-[practice.py](../357/files/practice.py)
+[practice.py](./files/practice.py)
