@@ -186,9 +186,6 @@ Loop finished!
 - Use `zip()` for parallel iteration.
 - Control loops with `break` and `continue`.
 
-# Questions?
-Feel free to ask!
-
 # Agenda
 
 Continue working on `practice.py` (see yesterday's files) together in class.
