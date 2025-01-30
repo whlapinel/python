@@ -16,10 +16,12 @@ paginate: true
 ```text
 /python
   /unit_0
+    /lesson_1
     /lesson_2
+    /lesson_3
 ```
 
-- Create a new directory called `lesson_2` in your `unit_0` directory.
+- Create a new directory called `lesson_3` in your `unit_0` directory.
 - Open this directory in VS Code and create a new file called `warmup.py`
 - Copy and paste the following into your file
 
