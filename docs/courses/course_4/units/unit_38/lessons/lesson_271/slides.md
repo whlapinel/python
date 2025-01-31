@@ -13,6 +13,15 @@ paginate: true
 
 # Warmup
 
+- Create a new directory `unit_1` in your `python` course directory in onedrive.
+- Make a new directory `lesson_1` in the `unit_1` directory
+
+```text
+/python
+  /unit_1
+    /lesson_1
+```
+
 # Variables & Data Types in Python
 
 ## What are Variables?  
