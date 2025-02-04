@@ -118,4 +118,7 @@ color = input("What is your favorite color? ")
 print("Wow!", color, "is a great color!")
 ```
 
-# Assignment 1.3: Practice with print(), input(), data types and operators
+# Assignment 1.3
+
+- [Assignment 1.3](../files/assignment1_1_3.py) Practice with print(), input(), data types and operators
+- CodeHS 2.9 and 2.10
