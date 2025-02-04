@@ -11,6 +11,16 @@ paginate: true
 
 # Warmup
 
+- Make a new directory `lesson_3` in the `unit_1` directory and open it in VS Code.
+- Create a new file `lesson_3.py` and prepare to run example code in today's lecture slides.
+
+```text
+/python
+  /unit_1
+    /lesson_2
+      /lesson_2.py
+```
+
 # Introduction to `print()` and `input()` in Python
 
 # The `print()` Function
