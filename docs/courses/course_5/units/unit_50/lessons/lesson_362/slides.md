@@ -61,6 +61,9 @@ paginate: true
   - `<` (less than)
   - `>=` (greater than or equal to)
   - `<=` (less than or equal to)
+
+# Boolean Expressions (continued)
+
 - Logical Operators:
   - `and` (both conditions must be True)
   - `or` (at least one condition must be True)
