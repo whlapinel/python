@@ -136,4 +136,7 @@ paginate: true
 1. Write an `if` statement to check if a number is positive, negative, or zero.
 2. Define a function that takes two numbers and returns their product.
 
+# Assignment 1.3
+
+- See files
 
