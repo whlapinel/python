@@ -10,6 +10,18 @@ paginate: true
 <!-- backgroundColor: black -->
 <!-- class: invert -->
 
+# Warmup
+
+- Make a new directory `lesson_2` in the `unit_2` directory and open it in VS Code.
+- Create a new file `lesson_2.py` and prepare to run example code in today's lecture slides.
+
+```text
+/python
+  /unit_2
+    /lesson_2
+      /lesson_2.py
+```
+
 # Introduction to `if` Statements in Python
 
 # What is an `if` Statement?
