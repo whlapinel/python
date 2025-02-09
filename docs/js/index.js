@@ -1,6 +1,6 @@
 "use strict";
 (() => {
-    console.log("Hello World");
+    console.log("Hello World from static index.ts!");
     const navAbout = document.querySelector("#nav-about");
     const aboutMenu = document.querySelector("#about-menu");
     navAbout === null || navAbout === void 0 ? void 0 : navAbout.addEventListener("click", (e) => {
