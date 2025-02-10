@@ -114,3 +114,7 @@ Write a while loop that prints this pattern:
 - Nested `while` loops
 - More practice with challenges
 
+# Assignment 3.2
+
+- Python file [Hints](../files/hints_assignment_1_3_2.html)
+- CodeHS 3.1 and 3.2
