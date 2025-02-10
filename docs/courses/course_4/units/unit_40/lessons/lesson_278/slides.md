@@ -116,5 +116,5 @@ Write a while loop that prints this pattern:
 
 # Assignment 3.2
 
-- Python file [Hints](../files/hints_assignment_1_3_2.html)
+- Python file [Hints](./files/hints_assignment_1_3_2.html)
 - CodeHS 3.1 and 3.2
