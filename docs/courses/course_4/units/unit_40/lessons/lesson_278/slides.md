@@ -10,7 +10,13 @@ paginate: true
 <!-- backgroundColor: black -->
 <!-- class: invert -->
 
-# 🔄 While Loops - Lesson 2
+# Warmup
+
+- Go to [VS Code Keyboard Shortcuts](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
+  - Identify 3 cool keyboard shortcuts and try them out
+  - Be prepared to share your favorite!
+
+# 🔄 While Loops - Lesson 3.2
 
 ## Building on What We Learned Yesterday
 
