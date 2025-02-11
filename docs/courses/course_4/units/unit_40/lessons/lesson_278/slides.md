@@ -94,7 +94,7 @@ while i <= 3:
     i += 1
 ```
 
-❓ What will be the output?
+# ❓ What will be the output?
 
 ## 🎯 Challenge #4: Create a Number Pyramid
 Write a while loop that prints this pattern:
