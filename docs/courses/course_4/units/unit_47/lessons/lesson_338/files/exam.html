@@ -1,4 +1,4 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Testing Goldmark</title><link rel="stylesheet" href="/styles/github-markdown-dark.css"></head><body class="p-6"><div class="markdown-body"><hr />
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Testing Goldmark</title><link rel="stylesheet" href="/styles/github-markdown-dark.css"></head><body class="markdown-body"><hr />
 <h2 id="paginate-true">marp: true<br />
 theme: default<br />
 class: lead<br />
@@ -9,13 +9,12 @@ paginate: true</h2>
 <h1 id="challenge-log-file-analyzer"><strong>Challenge: Log File Analyzer</strong></h1>
 <h2 id="scenario"><strong>Scenario:</strong></h2>
 <p>You are working as a software developer for a company that needs to analyze its server logs. The log file contains entries in the following format:</p>
-<pre><code class="language-bash">[2024-12-01 10:15:32] INFO User 'Alice' logged in.
-[2024-12-01 10:20:45] ERROR Failed to connect to database.
-[2024-12-01 10:45:10] INFO User 'Bob' logged out.
-[2024-12-01 11:05:21] WARNING Disk space running low.
-[2024-12-01 11:25:34] INFO User 'Alice' logged out.
-</code></pre>
-<h1 id="challenge">Challenge</h1>
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;"><code><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#ff79c6">[</span>2024-12-01 10:15:32<span style="color:#ff79c6">]</span> INFO User <span style="color:#f1fa8c">&#39;Alice&#39;</span> logged in.
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span><span style="color:#ff79c6">[</span>2024-12-01 10:20:45<span style="color:#ff79c6">]</span> ERROR Failed to connect to database.
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span><span style="color:#ff79c6">[</span>2024-12-01 10:45:10<span style="color:#ff79c6">]</span> INFO User <span style="color:#f1fa8c">&#39;Bob&#39;</span> logged out.
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4</span><span><span style="color:#ff79c6">[</span>2024-12-01 11:05:21<span style="color:#ff79c6">]</span> WARNING Disk space running low.
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5</span><span><span style="color:#ff79c6">[</span>2024-12-01 11:25:34<span style="color:#ff79c6">]</span> INFO User <span style="color:#f1fa8c">&#39;Alice&#39;</span> logged out.
+</span></span></code></pre><h1 id="challenge">Challenge</h1>
 <p>Your task is to write a program that:</p>
 <ol>
 <li>Reads the log file.</li>
@@ -35,21 +34,20 @@ paginate: true</h2>
 <li>Extract all unique timestamps when <code>ERROR</code> messages occurred.</li>
 </ul>
 <h1 id="format-saved-to-reporttxt">Format (Saved to <code>report.txt</code>)</h1>
-<pre><code class="language-bash">Server Log Analysis Report
-===========================
-Log Entry Counts:
-- INFO: 3
-- ERROR: 1
-- WARNING: 1
-
-User Login Activity:
-- Alice: 1 login(s)
-- Bob: 1 login(s)
-
-Error Timestamps:
-- 2024-12-01 10:20:45
-</code></pre>
-<h1 id="bonus-challenges"><strong>Bonus Challenges:</strong></h1>
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;"><code><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1</span><span>Server Log Analysis <span style="color:#8be9fd;font-style:italic">Report</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2</span><span><span style="color:#ff79c6">===========================</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3</span><span>Log Entry Counts:
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4</span><span>- INFO: <span style="color:#bd93f9">3</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5</span><span>- ERROR: <span style="color:#bd93f9">1</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6</span><span>- WARNING: <span style="color:#bd93f9">1</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8</span><span>User Login Activity:
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9</span><span>- Alice: <span style="color:#bd93f9">1</span> login<span style="color:#ff79c6">(</span>s<span style="color:#ff79c6">)</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10</span><span>- Bob: <span style="color:#bd93f9">1</span> login<span style="color:#ff79c6">(</span>s<span style="color:#ff79c6">)</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12</span><span>Error Timestamps:
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13</span><span>- 2024-12-01 10:20:45
+</span></span></code></pre><h1 id="bonus-challenges"><strong>Bonus Challenges:</strong></h1>
 <ul>
 <li>Sort the users alphabetically in the report.</li>
 <li>Calculate the total time each user was logged in (assume logs are in order).</li>
@@ -71,21 +69,20 @@ Error Timestamps:
 <li>Handles edge cases (e.g., no <code>ERROR</code> messages in the log).</li>
 </ul>
 <h1 id="starter-code"><strong>Starter Code</strong></h1>
-<pre><code class="language-python">import os
-
-def read_log_file(file_path):
-    if not os.path.exists(file_path):
-        print(f&quot;File {file_path} does not exist.&quot;)
-        return []
-    with open(file_path, &quot;r&quot;) as file:
-        return file.readlines()
-
-def write_report(file_path, content):
-    with open(file_path, &quot;w&quot;) as file:
-        file.write(content)
-
-# Example usage:
-log_entries = read_log_file(&quot;server.log&quot;)
-# Process log_entries to generate the report...
-</code></pre>
-</div></body></html>
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;"><code><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1</span><span><span style="color:#ff79c6">import</span> os
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3</span><span><span style="color:#ff79c6">def</span> <span style="color:#50fa7b">read_log_file</span>(file_path):
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4</span><span>    <span style="color:#ff79c6">if</span> <span style="color:#ff79c6">not</span> os<span style="color:#ff79c6">.</span>path<span style="color:#ff79c6">.</span>exists(file_path):
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5</span><span>        <span style="color:#8be9fd;font-style:italic">print</span>(<span style="color:#f1fa8c">f</span><span style="color:#f1fa8c">&#34;File </span><span style="color:#f1fa8c">{</span>file_path<span style="color:#f1fa8c">}</span><span style="color:#f1fa8c"> does not exist.&#34;</span>)
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6</span><span>        <span style="color:#ff79c6">return</span> []
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7</span><span>    <span style="color:#ff79c6">with</span> <span style="color:#8be9fd;font-style:italic">open</span>(file_path, <span style="color:#f1fa8c">&#34;r&#34;</span>) <span style="color:#ff79c6">as</span> file:
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8</span><span>        <span style="color:#ff79c6">return</span> file<span style="color:#ff79c6">.</span>readlines()
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10</span><span><span style="color:#ff79c6">def</span> <span style="color:#50fa7b">write_report</span>(file_path, content):
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11</span><span>    <span style="color:#ff79c6">with</span> <span style="color:#8be9fd;font-style:italic">open</span>(file_path, <span style="color:#f1fa8c">&#34;w&#34;</span>) <span style="color:#ff79c6">as</span> file:
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12</span><span>        file<span style="color:#ff79c6">.</span>write(content)
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13</span><span>
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14</span><span><span style="color:#6272a4"># Example usage:</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15</span><span>log_entries <span style="color:#ff79c6">=</span> read_log_file(<span style="color:#f1fa8c">&#34;server.log&#34;</span>)
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16</span><span><span style="color:#6272a4"># Process log_entries to generate the report...</span>
+</span></span></code></pre></body></html>

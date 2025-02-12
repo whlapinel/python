@@ -1,4 +1,4 @@
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Testing Goldmark</title><link rel="stylesheet" href="/styles/github-markdown-dark.css"></head><body class="p-6"><div class="markdown-body"><h1 id="practice-problems-95">Practice Problems 9.5</h1>
+<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Testing Goldmark</title><link rel="stylesheet" href="/styles/github-markdown-dark.css"></head><body class="markdown-body"><h1 id="practice-problems-95">Practice Problems 9.5</h1>
 <h2 id="section-1-modules">Section 1: Modules</h2>
 <h2 id="1-importing-modules"><strong>1. Importing Modules</strong></h2>
 <h3 id="which-of-the-following-statements-correctly-imports-the-sqrt-function-from-the-math-module">Which of the following statements correctly imports the <code>sqrt</code> function from the <code>math</code> module?</h3>
@@ -26,10 +26,9 @@ C. It deletes unused modules automatically.<br />
 D. It stores the system’s environment variables.</p>
 <h2 id="5-using-the-math-module"><strong>5. Using the <code>math</code> Module</strong></h2>
 <h3 id="what-does-the-following-code-return">What does the following code return?</h3>
-<pre><code class="language-python">import math  
-print(math.ceil(4.3))  
-</code></pre>
-<p>A. <code>4</code><br />
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;"><code><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#ff79c6">import</span> math  
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span><span style="color:#8be9fd;font-style:italic">print</span>(math<span style="color:#ff79c6">.</span>ceil(<span style="color:#bd93f9">4.3</span>))  
+</span></span></code></pre><p>A. <code>4</code><br />
 B. <code>5</code><br />
 C. <code>4.3</code><br />
 D. <code>Error</code></p>
@@ -138,10 +137,9 @@ C. <code>'65'</code><br />
 D. <code>'\x41'</code></p>
 <h2 id="23-string-indexing"><strong>23. String Indexing</strong></h2>
 <h3 id="what-is-the-output-of-the-following-code">What is the output of the following code?</h3>
-<pre><code class="language-python">s = &quot;hello&quot;
-print(s[1])
-</code></pre>
-<p>A. <code>'e'</code><br />
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;"><code><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>s <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;hello&#34;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span><span style="color:#8be9fd;font-style:italic">print</span>(s[<span style="color:#bd93f9">1</span>])
+</span></span></code></pre><p>A. <code>'e'</code><br />
 B. <code>'h'</code><br />
 C. <code>'l'</code><br />
 D. <code>IndexError</code></p>
@@ -153,29 +151,26 @@ C. <code>'tho'</code><br />
 D. <code>'hon'</code></p>
 <h2 id="25-string-immutability"><strong>25. String Immutability</strong></h2>
 <h3 id="what-happens-if-you-attempt-to-modify-a-string-in-python-like-this">What happens if you attempt to modify a string in Python, like this:</h3>
-<pre><code class="language-python">s = &quot;immutable&quot;
-s[0] = &quot;M&quot;
-</code></pre>
-<p>A. The string becomes <code>&quot;Mutable&quot;</code>.<br />
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;"><code><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>s <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;immutable&#34;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>s[<span style="color:#bd93f9">0</span>] <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;M&#34;</span>
+</span></span></code></pre><p>A. The string becomes <code>&quot;Mutable&quot;</code>.<br />
 B. A <code>TypeError</code> is raised.<br />
 C. The string remains unchanged.<br />
 D. It creates a new string.</p>
 <h2 id="26-concatenating-strings"><strong>26. Concatenating Strings</strong></h2>
 <h3 id="what-is-the-result-of-the-following-code">What is the result of the following code?</h3>
-<pre><code class="language-python">s1 = &quot;Hello&quot;
-s2 = &quot;World&quot;
-print(s1 + &quot; &quot; + s2)
-</code></pre>
-<p>A. <code>'HelloWorld'</code><br />
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;"><code><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>s1 <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;Hello&#34;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>s2 <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;World&#34;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span><span style="color:#8be9fd;font-style:italic">print</span>(s1 <span style="color:#ff79c6">+</span> <span style="color:#f1fa8c">&#34; &#34;</span> <span style="color:#ff79c6">+</span> s2)
+</span></span></code></pre><p>A. <code>'HelloWorld'</code><br />
 B. <code>'Hello World'</code><br />
 C. <code>HelloWorld</code><br />
 D. <code>Error</code></p>
 <h2 id="27-membership-operators"><strong>27. Membership Operators</strong></h2>
 <h3 id="what-does-the-following-code-return-1">What does the following code return?</h3>
-<pre><code class="language-python">s = &quot;Python&quot;
-print(&quot;y&quot; in s)
-</code></pre>
-<p>A. <code>True</code><br />
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;"><code><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>s <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;Python&#34;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span><span style="color:#8be9fd;font-style:italic">print</span>(<span style="color:#f1fa8c">&#34;y&#34;</span> <span style="color:#ff79c6">in</span> s)
+</span></span></code></pre><p>A. <code>True</code><br />
 B. <code>False</code><br />
 C. <code>'y'</code><br />
 D. <code>None</code></p>
@@ -187,20 +182,18 @@ C. <code>.isalnum()</code><br />
 D. <code>.isupper()</code></p>
 <h2 id="29-string-splitting"><strong>29. String Splitting</strong></h2>
 <h3 id="what-does-the-following-code-return-2">What does the following code return?</h3>
-<pre><code class="language-python">s = &quot;one,two,three&quot;
-print(s.split(&quot;,&quot;))
-</code></pre>
-<p>A. <code>['one,two,three']</code><br />
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;"><code><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>s <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;one,two,three&#34;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span><span style="color:#8be9fd;font-style:italic">print</span>(s<span style="color:#ff79c6">.</span>split(<span style="color:#f1fa8c">&#34;,&#34;</span>))
+</span></span></code></pre><p>A. <code>['one,two,three']</code><br />
 B. <code>['one', 'two', 'three']</code><br />
 C. <code>['one two three']</code><br />
 D. <code>Error</code></p>
 <h2 id="30-string-comparison"><strong>30. String Comparison</strong></h2>
 <h3 id="what-will-the-following-code-output">What will the following code output?</h3>
-<pre><code class="language-python">s1 = &quot;apple&quot;
-s2 = &quot;banana&quot;
-print(s1 &lt; s2)
-</code></pre>
-<p>A. <code>True</code><br />
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;"><code><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>s1 <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;apple&#34;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>s2 <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;banana&#34;</span>
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span><span style="color:#8be9fd;font-style:italic">print</span>(s1 <span style="color:#ff79c6">&lt;</span> s2)
+</span></span></code></pre><p>A. <code>True</code><br />
 B. <code>False</code><br />
 C. <code>None</code><br />
 D. <code>Error</code></p>
@@ -267,11 +260,10 @@ C. Both methods execute in sequence.<br />
 D. The base class method is made private.</p>
 <h2 id="41-list-comprehensions"><strong>41. List Comprehensions</strong></h2>
 <h3 id="what-does-the-following-list-comprehension-produce">What does the following list comprehension produce?</h3>
-<pre><code class="language-python">nums = [1, 2, 3, 4]
-squares = [x**2 for x in nums if x % 2 == 0]
-print(squares)
-</code></pre>
-<p>A. <code>[1, 4, 9, 16]</code><br />
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;"><code><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>nums <span style="color:#ff79c6">=</span> [<span style="color:#bd93f9">1</span>, <span style="color:#bd93f9">2</span>, <span style="color:#bd93f9">3</span>, <span style="color:#bd93f9">4</span>]
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>squares <span style="color:#ff79c6">=</span> [x<span style="color:#ff79c6">**</span><span style="color:#bd93f9">2</span> <span style="color:#ff79c6">for</span> x <span style="color:#ff79c6">in</span> nums <span style="color:#ff79c6">if</span> x <span style="color:#ff79c6">%</span> <span style="color:#bd93f9">2</span> <span style="color:#ff79c6">==</span> <span style="color:#bd93f9">0</span>]
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span><span style="color:#8be9fd;font-style:italic">print</span>(squares)
+</span></span></code></pre><p>A. <code>[1, 4, 9, 16]</code><br />
 B. <code>[4, 16]</code><br />
 C. <code>[2, 4]</code><br />
 D. <code>[1, 2, 3, 4]</code></p>
@@ -283,10 +275,9 @@ C. <code>[(x, y) if x in [1, 2] and y in [3, 4]]</code><br />
 D. <code>[x, y for x in [1, 2] for y in [3, 4]]</code></p>
 <h2 id="43-lambda-functions"><strong>43. Lambda Functions</strong></h2>
 <h3 id="what-does-the-following-lambda-function-do">What does the following lambda function do?</h3>
-<pre><code class="language-python">add = lambda x, y: x + y
-print(add(2, 3))
-</code></pre>
-<p>A. Prints <code>2</code><br />
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;"><code><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>add <span style="color:#ff79c6">=</span> <span style="color:#ff79c6">lambda</span> x, y: x <span style="color:#ff79c6">+</span> y
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span><span style="color:#8be9fd;font-style:italic">print</span>(add(<span style="color:#bd93f9">2</span>, <span style="color:#bd93f9">3</span>))
+</span></span></code></pre><p>A. Prints <code>2</code><br />
 B. Prints <code>3</code><br />
 C. Prints <code>5</code><br />
 D. Raises an error</p>
@@ -298,11 +289,10 @@ C. Filters items from a list based on a condition<br />
 D. Combines multiple iterables</p>
 <h2 id="45-using-filter"><strong>45. Using <code>filter()</code></strong></h2>
 <h3 id="what-does-the-following-code-return-3">What does the following code return?</h3>
-<pre><code class="language-python">nums = [1, 2, 3, 4]
-even = list(filter(lambda x: x % 2 == 0, nums))
-print(even)
-</code></pre>
-<p>A. <code>[1, 2, 3, 4]</code><br />
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;"><code><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span>nums <span style="color:#ff79c6">=</span> [<span style="color:#bd93f9">1</span>, <span style="color:#bd93f9">2</span>, <span style="color:#bd93f9">3</span>, <span style="color:#bd93f9">4</span>]
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>even <span style="color:#ff79c6">=</span> <span style="color:#8be9fd;font-style:italic">list</span>(<span style="color:#8be9fd;font-style:italic">filter</span>(<span style="color:#ff79c6">lambda</span> x: x <span style="color:#ff79c6">%</span> <span style="color:#bd93f9">2</span> <span style="color:#ff79c6">==</span> <span style="color:#bd93f9">0</span>, nums))
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3</span><span><span style="color:#8be9fd;font-style:italic">print</span>(even)
+</span></span></code></pre><p>A. <code>[1, 2, 3, 4]</code><br />
 B. <code>[2, 4]</code><br />
 C. <code>[1, 3]</code><br />
 D. <code>[2]</code></p>
@@ -320,10 +310,9 @@ C. Write binary<br />
 D. Append binary</p>
 <h2 id="48-writing-to-a-file"><strong>48. Writing to a File</strong></h2>
 <h3 id="what-does-the-following-code-do">What does the following code do?</h3>
-<pre><code class="language-python">with open(&quot;example.txt&quot;, &quot;w&quot;) as f:
-    f.write(&quot;Hello World&quot;)
-</code></pre>
-<p>A. Appends <code>&quot;Hello World&quot;</code> to the file.<br />
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;"><code><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1</span><span><span style="color:#ff79c6">with</span> <span style="color:#8be9fd;font-style:italic">open</span>(<span style="color:#f1fa8c">&#34;example.txt&#34;</span>, <span style="color:#f1fa8c">&#34;w&#34;</span>) <span style="color:#ff79c6">as</span> f:
+</span></span><span style="display:flex;"><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2</span><span>    f<span style="color:#ff79c6">.</span>write(<span style="color:#f1fa8c">&#34;Hello World&#34;</span>)
+</span></span></code></pre><p>A. Appends <code>&quot;Hello World&quot;</code> to the file.<br />
 B. Overwrites the file with <code>&quot;Hello World&quot;</code>.<br />
 C. Reads the file and prints <code>&quot;Hello World&quot;</code>.<br />
 D. Raises an error.</p>
@@ -339,4 +328,4 @@ D. <code>sys.console</code></p>
 B. To compress file data<br />
 C. To filter text files<br />
 D. To convert binary files to text</p>
-</div></body></html>
+</body></html>
