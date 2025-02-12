@@ -127,3 +127,9 @@ Loop finished
 1. Write a `for` loop to print all even numbers from 1 to 10.
 2. Iterate over the string "Python" and print each letter in uppercase.
 3. Loop through a dictionary of countries and their capitals.
+
+# Assignment 3.3
+
+- CodeHS 3.3 and 3.4
+- Submit solutions to [problems](./files/assignment_1_3_3.py)
+  - See [hints](./files/hints_assignment_1_3_3.html)
