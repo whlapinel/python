@@ -155,3 +155,8 @@ Example: `5 >> 1`
 # Other resources
 
 [YouTube video: FireShip explains Binary in 01100100 Seconds](https://youtu.be/zDNaUi2cjv4?si=LH4GN2UtdLhtmn9k)
+
+# Assignment 2.5
+
+- Solve [Problems](./files/assignment_2_2_5.html) and submit as python file in Canvas
+- Continue working on Python Essentials 2 Course Module 1 (Module 1 Quiz is due tomorrow)
