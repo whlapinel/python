@@ -135,7 +135,7 @@ paginate: true
 
 # Assignment 2.4
 
-- Complete [practice problems](assignment_2_2_4.html) and submit as python file
+- Complete [practice problems](./files/assignment_2_2_4.html) and submit as python file
 - Enroll in [Python Essentials 2 Course](https://pythoninstitute.org/python-essentials-2);
 - Use your personal email address
 - When you create your account make sure your name matches Powerschool
