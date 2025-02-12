@@ -13,6 +13,21 @@
   word-wrap: break-word;
 }
 
+.markdown-body code {
+  color: #81c8ff;
+  /* Default light gray */
+  background-color: #1e1e1e;
+  /* Dark background */
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+.markdown-body code span {
+  color: inherit;
+  /* Ensures Chroma overrides this */
+}
+
+
 .markdown-body .octicon {
   display: inline-block;
   fill: currentColor;
