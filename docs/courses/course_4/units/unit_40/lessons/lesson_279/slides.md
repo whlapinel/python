@@ -10,6 +10,12 @@ paginate: true
 <!-- backgroundColor: black -->
 <!-- class: invert -->
 
+# Warmup
+
+- Go to [VS Code Keyboard Shortcuts](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
+  - Identify 3 *new* keyboard shortcuts and try them out
+  - Be prepared to share your favorite!
+
 # Introduction to `for` Loops in Python
 
 ## What is a `for` Loop?
