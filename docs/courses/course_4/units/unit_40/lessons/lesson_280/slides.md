@@ -118,4 +118,4 @@ for num in numbers:
 # Assignment 3.4
 
 - CodeHS 3.5 & 3.6
-- Submit solutions to [problems](./files/assignment_1_3_4.md) in the form of a python file
+- Submit solutions to [problems](./files/assignment_1_3_4.html) in the form of a python file
