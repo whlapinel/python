@@ -13,7 +13,11 @@ paginate: true
 # Warmup
 
 - Prepare for today's quiz by looking over the slides and your work for this week
+- Start at 7:25
 - While loops, for loops, and lists
+- Open notes, but not "open-internet"
+- Phone use will result in a 0 and no retakes (any use at all)
+- If you need to use the restroom you must leave your phone with me
 
 # Unit 3 Quiz
 
