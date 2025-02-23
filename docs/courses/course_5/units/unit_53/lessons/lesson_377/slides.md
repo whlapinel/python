@@ -1,8 +1,13 @@
 ---
 marp: true
+theme: default
+class: lead
+paginate: true
 ---
 
 <!-- headingDivider: 1 -->
+<!-- backgroundColor: black -->
+<!-- class: invert -->
 
 # Warmup
 
@@ -20,7 +25,6 @@ print(modified_string) # ython
 ## Today
 
 - Begin Unit 4 (Standards 3.01 through 3.04)
-- (U4 Test is October 8th)
 - Lesson on File operations
 - Assignment: Assignment 4.1
 
@@ -35,11 +39,6 @@ print(modified_string) # ython
 
 - 3.03 Construct programs using appropriate Python libraries.
 - 3.04 Build programs using the sqlite3 and/or the sqlalchemy libraries.
-
-# Announcements
-
-- Certification exam permission slips
-- Github repo is now private so that I can put solutions and assessments in the same folders. I will post all materials in Canvas from now on and will try to go back and add them as well.
 
 # Reading and Writing to Files in Python
 
