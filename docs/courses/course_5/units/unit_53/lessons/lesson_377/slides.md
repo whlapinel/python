@@ -147,6 +147,6 @@ with open("example.txt", "r") as file:
 
 # Assignment: 4.1
 
-- [Python problems](./files/assignment_4_1.py) (due today)
+- [Python problems](./files/assignment4_1.py) (due today)
 - Python Essentials 2 Module 2 Quiz (due Friday)
 
