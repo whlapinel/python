@@ -11,6 +11,11 @@ paginate: true
 
 # Warmup
 
+- Place your phones in your bags and your bags against the wall
+- Create a new directory `unit_4` and within that, another directory `lesson_1`
+- Open your `lesson_1` directory in VS Code 
+- Open today's lesson on the course website.
+
 # Introduction to Functions in Python  
 
 - What is a function and why use them?  
