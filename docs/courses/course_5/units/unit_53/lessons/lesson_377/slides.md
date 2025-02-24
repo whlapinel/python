@@ -13,7 +13,7 @@ paginate: true
 
 1. Put your phone in your bag and put your bag against the wall
 2. Create a new directory `unit_4` in your `python` directory
-   - (We are skipping Unit 3)
+  - (We are skipping Unit 3)
 3. Create a new directory `lesson_1` in your `unit_4` directory
 ```text
 /python
@@ -149,3 +149,4 @@ with open("example.txt", "r") as file:
 
 - [Python problems](./files/assignment4_1.py) (due today)
 - Python Essentials 2 Module 2 Quiz (due Friday)
+
