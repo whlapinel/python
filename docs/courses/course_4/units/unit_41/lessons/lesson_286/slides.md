@@ -11,6 +11,11 @@ paginate: true
 
 # Warmup
 
+- Place your phones in your bags and your bags against the wall
+- Within your `unit_4` directory, create a new directory `lesson_2`
+- Open your `lesson_2` directory in VS Code 
+- Open today's lesson on the course website.
+
 # Raising and Handling Exceptions in Python
 
 ## What are Exceptions?

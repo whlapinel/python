@@ -9,6 +9,13 @@ paginate: true
 <!-- backgroundColor: black -->
 <!-- class: invert -->
 
+# Warmup
+
+- Place your phones in your bags and your bags against the wall
+- Within your `unit_4` directory, create a new directory `lesson_2`
+- Open your `lesson_2` directory in VS Code 
+- Open today's lesson on the course website.
+
 # Introduction to CSV Files in Python
 
 ## What is a CSV File?
@@ -122,3 +129,7 @@ df.to_csv("students.csv", index=False)
 - `csv.reader` and `csv.writer` work with lists.
 - `csv.DictReader` and `csv.DictWriter` work with dictionaries.
 - `pandas` provides a convenient way to handle CSV files in data analysis.
+
+# Assignment 4.2
+
+- [Practice problems](./files/assignment_2_4_2.html)
