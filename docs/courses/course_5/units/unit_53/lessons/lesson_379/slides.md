@@ -1,19 +1,18 @@
 ---
 marp: true
+theme: default
+class: lead
+paginate: true
 ---
+
 <!-- headingDivider: 1 -->
+<!-- backgroundColor: black -->
+<!-- class: invert -->
 
 # Agenda
 
-- Teacher absent today
-- Continue working on Assignment 4.2 (SQLite) if not finished
-- If finished with 4.2, continue with the CodeHS module on Classes
+- Catch-up day (short class due to early release)
 
-# Glance-ahead
+## Reminders
 
-- Tomorrow (Wed): more database stuff: SQLAlchemy
-- Unit 4 Test will be Oct. 8th
-
-# Announcements
-
-- Return signed permission forms for Certification Exam
+- Python Essentials 2 Course Module 2 Quiz due Friday
