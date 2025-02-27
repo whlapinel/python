@@ -100,4 +100,4 @@ Create a function that accepts a Pokémon’s profile with `**kwargs` and prints
 
 ## Reminder
  
-- Python Essentials 1 Course Module 1 Quiz is due tomorrow
+- Python Essentials 1 Course Module 2 Quiz is due tomorrow
