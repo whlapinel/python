@@ -95,7 +95,7 @@ Create a function that accepts a Pokémon’s profile with `**kwargs` and prints
 
 # Assignment 4.4
 
-- Complete [problems](./files/assignment_1_4_4.md) and submit as python file
+- Complete [problems](./files/assignment_1_4_4.html) and submit as python file
 - Complete CodeHS Assignments 5.5 & 5.6
 
 ## Reminder
