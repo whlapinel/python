@@ -9,6 +9,17 @@ paginate: true
 <!-- backgroundColor: black -->
 <!-- class: invert -->
 
+# Warmup
+
+- Phones in bags, bags against the wall
+- Create and open `lesson_5` in VS Code
+
+```text
+/python
+  /unit_4
+    /lesson_5
+```
+
 # Python Modules: Introduction & Usage
 
 ## 📦 What is a Module?
