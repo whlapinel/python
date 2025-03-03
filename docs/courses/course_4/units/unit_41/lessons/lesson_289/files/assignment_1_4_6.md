@@ -42,12 +42,6 @@ The wizard’s wand stores its power in a global variable `wand_power`. Create a
 ```python
 wand_power = 50
 
-def cast_spell():
-    global wand_power
-    wand_power -= 10
-
-cast_spell()
-print(wand_power)  # Output: 40
 ```
 
 ---
@@ -60,7 +54,6 @@ def spellbook():
     spell = "Fireball"
     
     def change_spell():
-        nonlocal spell
         spell = "Ice Blast"
     
     change_spell()
@@ -111,10 +104,7 @@ def spell_circle():
     spell = "Basic Shield"
     
     def summon_guardian():
-        nonlocal spell
-        global energy
-        spell = "Guardian of the Realm"
-        energy -= 50
+        pass
     
     summon_guardian()
     print(spell)
