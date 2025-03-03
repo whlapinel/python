@@ -40,8 +40,7 @@ Fetch and print all trades using column names instead of indexes.
 Write a function `get_trades_by_villager(villager_name)` that safely retrieves all trades for a given villager using **parameterized queries**.
 ```python
 def get_trades_by_villager(name):
-    cursor.execute("SELECT * FROM trades WHERE villager_name = ?", (name,))
-    return cursor.fetchall()
+    pass # insert your code here
 ```
 Test it with safe user input.
 
@@ -49,12 +48,9 @@ Test it with safe user input.
 Rewrite your database interaction using a `with` statement to ensure proper resource handling.
 
 ### **4. Handle Errors Gracefully**
-Wrap a query inside a `try-except` block to catch potential SQLite errors.
+Wrap this query inside a `try-except` block to catch potential SQLite errors.
 ```python
-try:
-    cursor.execute("SELECT * FROM nonexistent_table")
-except sqlite3.Error as e:
-    print("Database error:", e)
+cursor.execute("SELECT * FROM nonexistent_table")
 ```
 
 ### **5. Efficient Data Fetching**
@@ -66,9 +62,3 @@ except sqlite3.Error as e:
 
 ## **Bonus Challenge**
 Create a function `update_trade_cost(villager, item, new_cost)` that safely updates the emerald cost of an item.
-```python
-cursor.execute("UPDATE trades SET emerald_cost = ? WHERE villager_name = ? AND item = ?", (new_cost, villager, item))
-conn.commit()
-```
-
-🎯 **Complete all tasks to become the ultimate Minecraft trade master!**
