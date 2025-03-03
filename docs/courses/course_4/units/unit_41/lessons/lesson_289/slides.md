@@ -9,6 +9,17 @@ paginate: true
 <!-- backgroundColor: black -->
 <!-- class: invert -->
 
+# Warmup
+
+- Phones in bags, bags against the wall
+- Create and open `lesson_6` in VS Code
+
+```text
+/python
+  /unit_4
+    /lesson_6
+```
+
 # Introduction to Python Variable Scope
 
 ## What is Variable Scope?
