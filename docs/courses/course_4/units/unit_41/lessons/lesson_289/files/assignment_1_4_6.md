@@ -3,7 +3,7 @@
 ## Instructions
 
 - Complete the practice problems below and submit as a python file
-- Complete CodeHS 7.1 and 7.2
+- Complete CodeHS 7.3 and 7.4
 
 ## Python Function Practice Problems 🧙🏻‍♂️
 
