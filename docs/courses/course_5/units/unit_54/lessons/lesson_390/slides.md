@@ -30,7 +30,7 @@ paginate: true
   - Retain state between calls
   - Encapsulate logic and data
 
-**Example:**  
+# **Example:**  
 ```python
 def outer(x):
     def inner(y):
@@ -48,7 +48,7 @@ print(closure(5))  # Output: 15
 3. The outer function returns the inner function.
 4. The inner function **retains access** to the outer function's scope.
 
-**Example:**  
+# **Example:**  
 ```python
 def multiplier(factor):
     def multiply_by(x):
@@ -65,7 +65,7 @@ print(double(10))  # Output: 20
 ✅ Avoids Global Variables  
 ✅ Useful for Factory Functions
 
-**Example: Counter**  
+# **Example: Counter**  
 ```python
 def make_counter():
     count = 0
@@ -96,7 +96,7 @@ print(counter())  # Output: 2
 - **Downside:** Pollutes global namespace  
 - **Closures:** Keep state private and encapsulated
 
-## 2. Using a Class (More Boilerplate)
+# 2. Using a Class (More Boilerplate)
 ```python
 class Counter:
     def __init__(self):
