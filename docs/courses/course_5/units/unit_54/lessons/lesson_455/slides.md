@@ -33,30 +33,8 @@ Create a **To-Do List App** using OOP and SQLite3 where the user can:
 - Mark a task as complete  
 - Exit the program  
 
-# Step 1: Create the `Task` Class  
-Create a `Task` class to store the task details and status:  
 
-```python
-class Task:
-    def __init__(self, id, description, completed=False):
-        self.id = id
-        self.description = description
-        self.completed = completed
-    
-    def mark_complete(self):
-        self.completed = True
-    
-    def display(self):
-        status = "✓" if self.completed else "✗"
-        return f"[{status}] {self.description}"
-```
-
-# ✅ **Explanation:**  
-- `__init__` sets up the task ID, description, and status  
-- `mark_complete()` sets `completed` to `True`  
-- `display()` formats the task for display  
-
-# Step 2: Create a `ToDoList` Class  
+# Create a `ToDoList` Class  
 Create a `ToDoList` class to manage a list of tasks using SQLite3:  
 
 ```python
@@ -68,7 +46,7 @@ class ToDoList:
         self.cursor = self.conn.cursor()
         self.cursor.execute(
             '''CREATE TABLE IF NOT EXISTS tasks (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                id INTEGER PRIMARY KEY,
                 description TEXT,
                 completed INTEGER
             )'''
@@ -80,7 +58,7 @@ class ToDoList:
 - `sqlite3.connect()` creates or opens the `tasks.db` file  
 - `CREATE TABLE IF NOT EXISTS` ensures the table exists  
 
-# Step 2: Create a `ToDoList` Class (continued)  
+# Create a `ToDoList` Class (continued)  
 Add methods for adding and displaying tasks:  
 
 ```python
@@ -108,7 +86,7 @@ Add methods for adding and displaying tasks:
 - `INSERT INTO` adds a new task to the database  
 - `SELECT` retrieves all tasks from the database  
 
-# Step 2: Create a `ToDoList` Class (continued)  
+# Create a `ToDoList` Class (continued)  
 Add a method to mark a task as complete:  
 
 ```python
@@ -128,7 +106,7 @@ Add a method to mark a task as complete:
 - `UPDATE` modifies the task status  
 - `rowcount` checks if the task exists  
 
-# Step 3: Build the Command-Line Interface  
+# Build the Command-Line Interface  
 Create a loop to allow the user to interact with the app:  
 
 ```python
@@ -145,7 +123,7 @@ def main():
         choice = input("Enter your choice: ")
 ```
 
-# Step 3: Build the Command-Line Interface (continued)  
+# Build the Command-Line Interface (continued)  
 ```python
         if choice == "1":
             description = input("Enter task description: ")
@@ -165,7 +143,7 @@ def main():
             print("Invalid choice. Try again.")
 ```
 
-# Step 3: Build the Command-Line Interface (continued)  
+# Build the Command-Line Interface (continued)  
 ```python
 if __name__ == "__main__":
     main()
